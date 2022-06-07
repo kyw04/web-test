@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 10px 0px 0px 10px;
+    line-height: 50px;
+    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.wrapper > img {
+    height: 50px;
+    width: auto;
+    float: left;
+}
+.border {
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+    margin-left: 75px;
+}
+.menu {
+    float: left;
+}
+.menu li {
+    float: left;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    padding: 0 15px;
+    display: block;
+}
+
+.main img {
+    text-align: center;
+}
